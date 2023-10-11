@@ -1,5 +1,5 @@
 # Data-Visualization-Portfolio
-Explore essential bioinformatics visualizations: PCA, heatmaps, UMAP, t-SNE, volcano plots, Circos, &amp; phylogenetic trees. This repo decodes complex biological data, making high-dimensional datasets interpretable and actionable for researchers &amp; bioinformaticians.
+Explore essential bioinformatics visualizations: PCA, heatmaps, UMAP, t-SNE and volcano plots. 
 
 **Features**:
 1. **Principal Component Analysis (PCA)**: Dimensionality reduction to capture the essence of high-dimensional bioinformatics datasets and visualize them in a more interpretable space.

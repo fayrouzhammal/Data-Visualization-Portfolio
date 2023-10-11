@@ -1,7 +1,6 @@
 # Load necessary libraries
 #install.packages("umap")
 #install.packages("ggplot2")
-setwd("C:/Users/hamma/OneDrive/Documents/Portfolio/Data-Visualization-Portfolio/3.UMAP/R")
 
 library(umap)
 library(ggplot2)

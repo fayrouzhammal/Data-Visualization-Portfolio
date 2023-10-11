@@ -1,6 +1,5 @@
 # Loading necessary libraries
 #install.packages(c("umap", "ggplot2"))
-setwd("C:/Users/hamma/OneDrive/Documents/Portfolio/Data-Visualization-Portfolio/3.UMAP/R")
 library(umap)
 library(ggplot2)
 
@@ -14,8 +13,8 @@ n_clusters <- 20
 samples_per_cluster <- n_samples / n_clusters
 
 # Distinct means and standard deviations for each cluster
-cluster_means <- seq(-2, 2, length.out = n_clusters)
-cluster_sds <- seq(1, 3, length.out = n_clusters)  # Increased range for standard deviations
+cluster_means <- seq(-20, 20, length.out = n_clusters)
+cluster_sds <- seq(1, 100, length.out = n_clusters)  # Increased range for standard deviations
 
 # Simulating the base data
 data <- matrix(rnorm(n_genes * n_samples), n_genes, n_samples)
